@@ -10,8 +10,8 @@ import { app } from './app';
 greenlock
 .init({
     packageRoot: path.join(__dirname, '..' ),
-    configDir: path.join(__dirname, '..', 'greenlock.d'),
-    maintainerEmail: "admin@blockbin.xyz",
+    configDir: path.join(__dirname, '..', 'greenlock-manager'),
+    maintainerEmail: "phil@ardrive.io",
     cluster: false,
     debug: true,
 })
